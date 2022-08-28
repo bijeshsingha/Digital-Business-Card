@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background: beige;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #1A1B21;
+    align-items: center;
+    width: 317px;
+    max-width: 317px;
+    color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10%;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0;
+}
+
+.rock-image {
+    object-fit: cover;
+    height: 317px;
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+    margin-top: 41px;
+    font-size: 25px;
+    letter-spacing: 0rem;
+}
+
+.desig {
+    margin-top: 9px;
+    color: #F3BF99;
+}
+
+.website {
+    margin-top: 15px;
+}
+
+button {
+    height: Hug(34px);
+    width: 115px;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    
+    font-family: Inter;
+    font-size: 14px;
+    line-height: Hug(15px);
+    letter-spacing: 0em;
+    
+    border: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.email-btn {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.l-btn {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    color: white;
+    background: #5093E2;
+}
+
+.main-section {
+    font-family: Inter,sans-serif;
+    padding: 30px;
+    background: #1A1B21;
+}
+
+.main-heading {
+    font-size: 16px;
+    line-height: px;
+    text-align: left;
+}
+
+.main-para {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.interests {
+    padding-top: 20px;
+}
+
+.footer-section {
+    background: black;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 50px;
+    border-radius: 0px 0px 10px 10px;
+}
